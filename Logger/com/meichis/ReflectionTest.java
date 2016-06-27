@@ -84,7 +84,7 @@ public class ReflectionTest {
 				System.out.println(" Modifier.PUBLIC=" + Modifier.PUBLIC
 						+ " modifier=" + modifier
 						+ " Modifier.isPublic(Modifier.PUBLIC):"
-						+ Modifier.isPublic(Modifier.PUBLIC)
+						+ Modifier.isPublic(Modifier.PUBLIC) 
 						+ " Modifier.isPublic(modifier):"
 						+ Modifier.isPublic(modifier)
 						+ " (Modifier.PUBLIC == modifier):"+(Modifier.PUBLIC == modifier));
