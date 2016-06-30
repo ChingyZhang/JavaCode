@@ -61,7 +61,7 @@ public class LoggerWriter implements Runnable {
 			BufferedWriter bufferedWriter = new BufferedWriter(fw);
 			bufferedWriter.write(new Date().toString());
 			bufferedWriter.write(": ");
-			bufferedWriter.write(logString);
+			bufferedWriter.write(logString);			
 			//System.out.println("当前线程sleeptime=" + sleeptime);
 			//Thread.sleep(sleeptime);
 			bufferedWriter.newLine();
