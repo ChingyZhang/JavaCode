@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class ConstructorTest {
 
 	/**
@@ -27,7 +29,7 @@ public class ConstructorTest {
 
 	public ConstructorTest() {
 		System.out.println("进入无参数构造函数了b=" + b);
-		testa = 3;
+		testa = 3; 
 		System.out.println("进入无参数构造函数了testa=" + testa);
 	}
 
